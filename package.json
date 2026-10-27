@@ -1,0 +1,22 @@
+{
+  "name": "hospital-token-management-system",
+  "version": "1.0.0",
+  "description": "Hospital Token Management System with Real-Time Queue Updates and Role-Based Portals",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "test:server": "npm --prefix server test",
+    "build:client": "npm --prefix client run build",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "hospital",
+    "queue",
+    "token",
+    "healthcare",
+    "mern",
+    "socketio"
+  ],
+  "author": "",
+  "license": "ISC"
+}
